@@ -733,6 +733,12 @@
                             </customView>
                         </subviews>
                     </view>
+                    <connections>
+                        <outlet property="dragView" destination="is7-L3-ego" id="21g-aS-grE"/>
+                        <outlet property="imageView" destination="XWX-mn-slj" id="6be-st-klw"/>
+                        <outlet property="loadingSpinner" destination="27M-CK-7Qg" id="JVl-WR-ZX8"/>
+                        <outlet property="staticLabel" destination="Oma-Ef-GfB" id="Oal-LZ-05y"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
